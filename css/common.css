@@ -1,3 +1,10 @@
+:root {
+    --default_background-col: #2C2F35;
+    --background-col1: #191A1D;
+    --background-col2: #3F434C;
+
+}
+
 * {
     margin: 0;
     padding: 0;
