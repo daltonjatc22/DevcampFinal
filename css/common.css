@@ -17,7 +17,7 @@
     font-size: 1.5em;
 }
 
-.desktop-hidden {
+body .desktop-hidden {
     display: none;
 }
 
@@ -27,7 +27,7 @@
     }
 
     .mobile-hidden {
-        display: none;
+        display: none!important;
     }
 
 }
