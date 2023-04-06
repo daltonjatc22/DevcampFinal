@@ -1,3 +1,26 @@
 body{
     background-color: rgb(19 20 23);
 }
+
+main {
+    color: white;
+    background-color: rgb(19 20 23);
+    font-size: 2em;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.descriptions-wrapper {
+    text-align: center;
+}
+
+.descriptions-wrapper > p:nth-child(1) {
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 748px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

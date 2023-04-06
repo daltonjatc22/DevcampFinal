@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bold {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.desktop-hidden {
+    display: none;
+}
+
+@media screen and (max-width: 748px) {
+    .desktop-hidden {
+        display: initial;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+}
