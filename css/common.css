@@ -2,7 +2,8 @@
     --default_background-col: #2C2F35;
     --background-col1: #191A1D;
     --background-col2: #3F434C;
-
+    --background-col3: #36383F;
+    --text-color: #FFF;
 }
 
 * {
@@ -28,4 +29,5 @@
     .mobile-hidden {
         display: none;
     }
+
 }

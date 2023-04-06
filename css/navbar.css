@@ -20,8 +20,8 @@
 }
 
 .logo-wrapper {
-    aspect-ratio: 1;
-    margin: 1em 1em 1em 1.5em;
+    aspect-ratio: 138/26;
+    
 }
 
 .right-wrapper {
@@ -114,4 +114,11 @@ a.btn.btn-dark {
 }
 .hamburger-dropdown-contents > li > :not(.spark) {
     font-weight: bold;
+}
+
+@media screen and (max-width: 748px) {
+    .logo-wrapper {
+        aspect-ratio: 1;
+        margin: 1em 1em 1em 1.5em;
+    }
 }
