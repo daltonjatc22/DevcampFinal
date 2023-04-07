@@ -4,6 +4,7 @@
     --background-col2: #3F434C;
     --background-col3: #36383F;
     --text-color: #FFF;
+    --light-text-color: #DDD;
 }
 
 * {
@@ -15,6 +16,12 @@
 .bold {
     font-weight: bold;
     font-size: 1.5em;
+
+    color: var(--text-color);
+}
+
+.light-text {
+    color: var(--light-text-color);
 }
 
 body .desktop-hidden {
@@ -22,7 +29,7 @@ body .desktop-hidden {
 }
 
 @media screen and (max-width: 748px) {
-    .desktop-hidden {
+    body .desktop-hidden {
         display: initial;
     }
 

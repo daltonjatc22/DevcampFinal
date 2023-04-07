@@ -17,6 +17,7 @@
 
 .logo {
     filter: invert(1);
+    
     height: 100%;
 }
 
@@ -93,22 +94,20 @@ a.btn.btn-dark {
     right: -0%;
     z-index: 75;
 
-    width: 400px;
+    width: 100%;
+    max-width: 300px;
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(30 31 38);
+    background-color: rgba(30 31 38);
 }
 
 .hamburger-dropdown-header-wrapper {
     display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
 
 .hamburger-dropdown-contents {
-
-
     display: flex;
     /*display: None;*/
     flex-direction: column;
@@ -143,9 +142,11 @@ a.btn.btn-dark {
         /*display: None;*/
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         line-height: 2em;
     
         transition: all 0.25s ease-in-out;
+        margin-top: 10px;
+        margin-left: 25px;
     }
 }
