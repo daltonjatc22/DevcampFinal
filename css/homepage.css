@@ -34,9 +34,13 @@ main {
 }
 
 .bottom-nav {
+    /*
     position: fixed;
     bottom: 10vh;
     width:100%;
+    */
+    grid-row: 1 2;
+    margin-bottom: 10vh;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -60,6 +64,10 @@ main {
     height: 100%;
     padding: 0.75em;
 
+}
+.left-col-wrapper {
+    align-self: center;
+    margin-bottom: 2em;
 }
 
 @media screen and (max-width: 748px) {

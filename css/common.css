@@ -13,6 +13,8 @@
     box-sizing: border-box;
 }
 
+/* Common Text Styles */
+
 .bold {
     font-weight: bold;
     font-size: 1.5em;
@@ -24,17 +26,45 @@
     color: var(--light-text-color);
 }
 
+/* Common Hiders */
+
 body .desktop-hidden {
     display: none;
 }
 
+.small-mobile-visible {
+    display: none;
+}
+
+
+/* Common Flexbox Styles */
+.justify-end {
+    justify-self: flex-end;
+}
+
+.auto-gap-top {
+    margin-top: auto;
+}
+
 @media screen and (max-width: 748px) {
+    /* Common Hiders */
     body .desktop-hidden {
         display: initial;
     }
 
     .mobile-hidden {
         display: none!important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* Common Hiders */
+    .small-mobile-visible {
+        display: initial;
+    }
+
+    body .small-mobile-hidden {
+        display: none;
     }
 
 }
