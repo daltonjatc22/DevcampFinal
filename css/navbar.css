@@ -22,6 +22,7 @@
 }
 
 .logo-wrapper {
+    height: 2.5em;
     aspect-ratio: 138/26;
     margin: 1em 1em 1em 1.5em;
 
