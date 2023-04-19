@@ -70,6 +70,18 @@ main {
     margin-bottom: 2em;
 }
 
+.right-col-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-col-wrapper img {
+    margin-right: -3em;
+
+    max-height: 50vh;
+}
+
 @media screen and (max-width: 748px) {
     main {
         background: initial;

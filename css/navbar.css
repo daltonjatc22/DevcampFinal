@@ -77,10 +77,12 @@ a.btn:hover {
 
 a.btn.btn-green{
     background-color: rgb(10, 196, 101);
+    color: #fff!important;
 }
 
 a.btn.btn-dark {
     background-color: rgb(109, 109, 109);
+    color: #fff !important;;
 }
 
 /* Hamburger Dropdown */
