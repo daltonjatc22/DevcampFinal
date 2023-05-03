@@ -39,7 +39,7 @@ main {
     bottom: 10vh;
     width:100%;
     */
-    grid-row: 1 2;
+    grid-row: 2;
     margin-bottom: 10vh;
 
     display: grid;

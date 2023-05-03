@@ -138,7 +138,7 @@ a.btn.btn-dark {
 
 @media screen and (max-width: 748px) {
     .logo-wrapper {
-        aspect-ratio: 1;
+        aspect-ratio: 1 / 1;
         
     }
     #hamburger-dropdown-contents-wrapper {
